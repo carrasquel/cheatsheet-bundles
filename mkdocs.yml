@@ -24,6 +24,8 @@ nav:
     - Kubernetes: container/kubernetes.md
   - Linux Cheatsheets:
     - Terminal: linux/terminal.md
+  - Markdown Cheatsheets:
+    - Markdown: markdown/markdown.md
 
 theme: 
   name: material
