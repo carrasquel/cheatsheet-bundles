@@ -1,0 +1,37 @@
+site_name: Cheatsheet Bundles
+site_description: 'Python and JavaScript (among others) cheatsheet bundles to recall coding skills'
+site_url: ''
+site_author: https://github.com/carrasquel/cheatsheet-bundles/graphs/contributors
+repo_url: http://github.com/carrasquel/cheatsheet-bundles
+remote_branch: master
+nav:
+  - Getting Started:
+    - Home: index.md
+    - Getting Started: started/started.md
+  - Python Cheatsheets:
+    - Python: python/python.md
+    - Flask: python/flask.md
+    - Django: python/django.md
+    - Scrapy: python/scrapy.md
+  - JavaScript Cheatsheets:
+    - JavaScript: javascript/javascript.md
+    - Tulipan: javascript/tulipan.md
+    - Webapack: javascript/webpack.md
+    - Express: javascript/express.md
+    - React: javascript/react.md
+  - Container Cheatsheets:
+    - Docker: container/docker.md
+    - Kubernetes: container/kubernetes.md
+  - Linux Cheatsheets:
+    - Terminal: linux/terminal.md
+
+theme: 
+  name: material
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/carrasquel'
+
+markdown_extensions:
+  - codehilite
